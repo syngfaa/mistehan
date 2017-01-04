@@ -9,18 +9,14 @@
 
 /* Reset */
 
-header{
-	height:100%;
-   width:100%;
-   background-image:url(mistehan/mistehanBanner.jpg);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.mistehan/mistehanBanner.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='mistehan/mistehanBanner.jpg',sizingMethod='scale')";
+html { 
+    background: url(mistehan/mistehanBanner.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-$body-bg: transparent; 
-$header-bg: transparent; 
+$body-bg: transparent;
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
